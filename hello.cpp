@@ -6,4 +6,5 @@ int main() {
     std::string msg = "Hello";
     std::cout << msg << std::endl;
     std::cout << "Программа завершена успешно" << std::endl;
+    return 0;
 }
