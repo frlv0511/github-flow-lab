@@ -1,8 +1,13 @@
 #include <iostream>
 #include <string>
+#include <stdexcept>
 
 void printMessage(const std::string& greeting) {
-    std::cout << greeting << std::endl;
+    try {
+        std::cout << greeting << std::endl;
+    } catch (const std::exception& e) {
+        std::cerr << "Ошибка вывода: " << e.what() << std::endl;
+    }
 }
 
 int main() {
