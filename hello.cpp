@@ -1,5 +1,7 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello" << std::endl;
+    // Выводим приветственное сообщение пользователю
+    std::string msg = "Hello";
+    std::cout << msg << std::endl;
 }
